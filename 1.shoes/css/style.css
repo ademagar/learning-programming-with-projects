@@ -3,9 +3,14 @@
 
 /* other css file imports */
 @import url("sections/header-home.css");
+@import url("sections/product.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
-/* :root {} */
+:root {
+    --first-color: #c72092;
+    --second-color: #6c14d0;
+    --star: orange;
+}
 
 *{
     margin: 0;

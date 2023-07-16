@@ -23,7 +23,7 @@
 
 .header__logo {
     font-size: 35px;
-    color: #c72092;
+    color: var(--first-color);
     margin: 5px 0;
     cursor: pointer;
     position: relative;
@@ -31,7 +31,7 @@
 }
 
 .header__logo span {
-    color: #6c14d0;
+    color: var(--second-color);
     text-decoration: underline;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .header__menu li a:hover {
-    color: #c72092
+    color: var(--first-color);
 }
 
 .header__user i {
@@ -57,7 +57,7 @@
 }
 
 .header__user i:hover {
-    color: #c72092
+    color: var(--first-color);
 }
 
 /* HOME Sett */
@@ -72,7 +72,7 @@
     font-size: 90px;
     line-height: 70px;
     font-family: pyxidium quick;
-    background: linear-gradient(to right, #c72092,#6c14d0);
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -82,7 +82,7 @@
 
 .home__main-content__main-text h1 span {
     font-size: 70px;
-    background: linear-gradient(to right, #c72092,#6c14d0);
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -118,7 +118,7 @@
 }
 
 .home_social-icon i:hover {
-    color: #c72092;
+    color: var(--first-color);;
 }
 
 .home__button {
@@ -126,7 +126,7 @@
     left: 10.6%;
     padding: 10px 20px;
     border-radius: 30px;
-    background: linear-gradient(to right,#c72092 , #6c14d0);
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
 }
 
 .home__button a {
