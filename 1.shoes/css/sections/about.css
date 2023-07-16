@@ -1,0 +1,116 @@
+/* ABOUT */
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding: 35px 0;
+}
+
+.about h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.about h1 span {
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;
+}
+
+.about__main {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__main__image {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about__main__image-small-image {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15px;
+}
+
+.about__main__image-small-image img {
+    height: 92px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--second-color), var(--first-color));
+    display: block;
+    border-radius: 6px;
+    padding: 5px 5px;
+    box-shadow: 0,0,6px, rgba(0,0,0,0.6);
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.about__main__image-small-image img:hover {
+    opacity: 1;
+}
+
+.about__main__image-container {
+    padding: 10px;
+    display: flex;
+}
+
+.about__main__image-container img {
+    border: 3px solid var(--second-color);
+    border-radius: 20px;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0 0 8px var(--second-color);
+}
+
+.about__main__text {
+    margin-top: 45px;
+}
+
+.about__main__text p {
+    background: linear-gradient(to left, var(--first-color), var(--second-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    padding: 25px 30px;
+    border: 2px solid var(--first-color);
+    border-radius: 20px;
+    box-shadow: 0 0 8px var(--first-color);
+}
+
+.about__main-button {
+    color: black;
+    background: none;
+    position: relative;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 10px 25px;
+    border: 2px solid var(--first-color);
+    text-decoration: none;
+    box-shadow: 0 0 8px var(--first-color);
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.about__main-button:hover{
+    border: 2px solid transparent;
+    background: var(--first-color);
+    color: white;
+}

@@ -363,7 +363,49 @@
     </section>
 
     <!--About-->
-  
+    <section class="about" id="about">
+
+      <!--About Title-->
+      <h1>Web<span>About</span></h1>
+
+      <!--About Main-->
+      <div class="about__main">
+
+        <!--About Main Image-->
+        <div class="about__main__image">
+
+          <!--About Main Small Image-->
+          <div class="about__main__image-small-image">
+            <img src="assets/red_shoes1.png" onclick="functio(this)">
+            <img src="assets/red_shoes2.png" onclick="functio(this)">
+            <img src="assets/red_shoes3.png" onclick="functio(this)">
+            <img src="assets/red_shoes4.png" onclick="functio(this)">
+          </div>
+
+          <!--About Main Image Container-->
+          <div class="about__main__image-container">
+            <img src="assets/red_shoes1.png" id="about__main__image-container-imagebox">
+          </div>
+
+        </div>
+
+        <!--About Main Text-->
+        <div class="about__main__text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut, ab doloribus, non consectetur iusto id nostrum incidunt quas labore et possimus libero nesciunt repellendus pariatur sunt provident ratione magni fugiat vitae obcaecati! Praesentium nam sapiente in voluptas laboriosam asperiores tenetur repellendus minus suscipit tempore rerum veniam, ipsam quaerat? Illo eos quos vero cupiditate praesentium aliquid maiores veritatis aut sed, error velit. Ullam facilis ipsum reprehenderit corrupti consectetur incidunt quas quis minima et adipisci eveniet placeat, doloremque quo quidem explicabo recusandae optio eius neque at modi laudantium culpa rem odit iste! Molestiae, dignissimos doloremque culpa, voluptatem iure repellendus temporibus quae fugit nobis ullam maiores vero molestias? Inventore ad ea voluptas natus magni, dolor, amet quidem sapiente eius odio asperiores provident libero earum esse? Officia excepturi enim necessitatibus neque laudantium, adipisci odit quis dolorem maxime asperiores quasi architecto nemo, ratione suscipit in repellat voluptates praesentium quidem veritatis dolores perferendis commodi repellendus?</p>
+        </div>        
+      </div>
+
+      <!--About Main Button-->
+      <a href="#about" class="about__main-button">Shop Now</a>
+      
+      <script>
+        function functio(small){
+            var full = document.getElementById("about__main__image-container-imagebox")
+            full.src = small.src
+        }
+      </script>
+    </section>
+
     <!--Review-->
   
     <!--Services-->

@@ -4,6 +4,7 @@
 /* other css file imports */
 @import url("sections/header-home.css");
 @import url("sections/product.css");
+@import url("sections/about.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
