@@ -1,0 +1,27 @@
+
+
+
+/* other css file imports */
+@import url("sections/header-home.css");
+
+/* CSS variables for reusablity across all files (including above imported) */
+/* :root {} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
