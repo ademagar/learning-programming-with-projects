@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 0.5em rgba(0,0,0,0.6);
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
     background: white;
     position: fixed;
     top: 0;
@@ -22,7 +22,7 @@
 }
 
 .header__logo {
-    font-size: 2.188em;
+    font-size: 35px;
     color: var(--first-color);
     margin: 5px 0;
     cursor: pointer;
@@ -37,7 +37,7 @@
 
 .header__menu li{
     display: inline-block;
-    margin: 0.313em 0.938em;
+    margin: 5px 15px;
 }
 
 .header__menu li a {
@@ -50,9 +50,9 @@
 }
 
 .header__user i {
-    margin: 0 0.25em;
+    margin: 0 4px;
     cursor: pointer;
-    font-size: 1.125em;
+    font-size: 18px;
     transition: 0.3s;
 }
 
@@ -73,8 +73,8 @@
 }
 
 .home__main-content__main-text h1 {
-    font-size: 5.625em;
-    line-height: 1em;
+    font-size: 90px;
+    line-height: 70px;
     font-family: pyxidium quick;
     background: linear-gradient(to right, var(--first-color), var(--second-color));
     -webkit-background-clip: text;
