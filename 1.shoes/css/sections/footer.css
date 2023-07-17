@@ -1,0 +1,114 @@
+/* FOOTER */
+
+.footer {
+    width: 100%;
+}
+
+.footer__main {
+    width: 100%;
+    background: #f3f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__main__tag {
+    margin: 10px 0;
+}
+
+.footer__main__tag-center {
+    text-align: center;
+}
+
+.footer__main__tag h1 {
+    font-size: 25px;
+    margin: 25px;
+    color: var(--third-color);
+}
+.footer__main__tag a {
+    display: block;
+    color: black;
+    margin: 9px 0;
+}
+
+.footer__main__tag a i {
+    padding: 0 10px;
+    transition: .3;
+}
+
+.footer__main__tag a i:hover {
+    color: var(--first-color);
+}
+
+.footer__main__tag-social-link {
+    display: flex;
+}
+
+.footer__main__tag-social-link a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+    position: relative;
+    margin: 0 5px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.footer__main__tag-social-link a .fa-brands {
+    font-size: 15px;
+    line-height: 30px;
+    z-index: 10;
+    position: relative;
+    transition: 0.5s;
+}
+
+.footer__main__tag-social-link a:hover i{
+    color: white;
+}
+
+.footer__main__tag-social-link a::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -90px;
+    background: linear-gradient(-45deg, var(--first-color), var(--second-color));
+    position: absolute;
+    z-index: -10;
+    transition: 0.5s;
+}
+
+.footer__main__tag-social-link a:hover::after {
+    left: 0;
+}
+
+.footer__main__tag-search-bar {
+    width: 230px;
+    height: 30px;
+    background: rgb(228, 223, 223);
+    border-radius: 25px;
+}
+
+.footer__main__tag-search-bar input {
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.footer__main__tag-search-bar button {
+    padding: 7px 15px;
+    background: linear-gradient(to right, var(--first-color), var(--second-color));
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}

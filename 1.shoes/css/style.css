@@ -14,6 +14,7 @@
 :root {
     --first-color: #c72092;
     --second-color: #6c14d0;
+    --third-color: #1c0080;
     --star: orange;
 }
 
@@ -26,6 +27,20 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+    width: 0.938rem;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0.313rem;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.313rem;
+    background: linear-gradient(to top, var(--first-color), var(--second-color));
 }
 
 ul{
