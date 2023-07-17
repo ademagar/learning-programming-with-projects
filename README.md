@@ -11,6 +11,8 @@ You can see here the [projects](https://ademagar.github.io/learning-programming-
 ## 1st Project
 I did an shoes website. You can see [here](https://ademagar.github.io/learning-programming-with-projects/1.shoes/)
 
+<img src="/1.shoes/assets/shoes-web-site/shoes-web.gif" width="auto">
+
 ## Get in touch
 [<img src="https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-dark.svg" width="auto" target="_blank">](https://www.twitter.com/ad3magar)
 [<img src="https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/linkedin-dark.svg" width="auto" target="_blank">](https://www.linkedin.com/in/ademagar/)
