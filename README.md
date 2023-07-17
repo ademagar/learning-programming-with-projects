@@ -5,8 +5,11 @@ I created this repo to share the projects I made while learning front-end develo
 
 Of course, I do not complete all projects to completion. Some projects may have been interrupted because my goal is not to say that I am writing a project. Don't forget this when browsing projects.
 
+### Live Link of the Projects
+You can see here the [projects](https://ademagar.github.io/learning-programming-with-projects/)
+
 ## 1st Project
-I did an shoes website https://github.com/ademagar/learning-programming-with-projects/tree/b56ec109acd63c21f2a6948701e495c289af5d35/1.shoes
+I did an shoes website. You can see [here](https://github.com/ademagar/learning-programming-with-projects/tree/b56ec109acd63c21f2a6948701e495c289af5d35/1.shoes)
 
 ## Get in touch
 [<img src="https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-dark.svg" width="auto" target="_blank">](https://www.twitter.com/ad3magar)
