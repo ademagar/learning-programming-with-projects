@@ -9,7 +9,7 @@ Of course, I do not complete all projects to completion. Some projects may have 
 You can see here the [projects](https://ademagar.github.io/learning-programming-with-projects/)
 
 ## 1st Project
-I did an shoes website. Here is a gif from that also, you can see [here] the website(https://ademagar.github.io/learning-programming-with-projects/1.shoes/)
+I did an shoes website. Here is a gif from that also, you can see [here](https://ademagar.github.io/learning-programming-with-projects/1.shoes/) the website.
 
 <img src="/1.shoes/assets/shoes-web-site/shoes-web.gif" width="auto">
 
