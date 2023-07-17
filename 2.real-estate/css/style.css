@@ -1,0 +1,14 @@
+/* font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* other css file imports */
+/* @import url("sections/header-home.css"); */
+
+/* CSS variables for reusablity across all files (including above imported) */
+
+/* :root {
+    --first-color: ;
+    --second-color: ;
+    --third-color: ;
+    --body-font: 'Poppins', sans-serif;
+} */
