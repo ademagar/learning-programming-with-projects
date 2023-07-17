@@ -12,7 +12,7 @@
 }
 
 .footer__main__tag {
-    margin: 10px 0;
+    margin: 0.625em 0;
 }
 
 .footer__main__tag-center {
@@ -20,18 +20,18 @@
 }
 
 .footer__main__tag h1 {
-    font-size: 25px;
-    margin: 25px;
+    font-size: 1.563em;
+    margin: 1.563em;
     color: var(--third-color);
 }
 .footer__main__tag a {
     display: block;
     color: black;
-    margin: 9px 0;
+    margin: 0.563em 0;
 }
 
 .footer__main__tag a i {
-    padding: 0 10px;
+    padding: 0 0.625em;
     transition: .3;
 }
 
@@ -44,21 +44,21 @@
 }
 
 .footer__main__tag-social-link a {
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
     border-radius: 50%;
     text-align: center;
     color: black;
-    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 1.25em 0.625em rgba(0,0,0,0.05);
     position: relative;
-    margin: 0 5px;
+    margin: 0 0.313em;
     z-index: 0;
     overflow: hidden;
 }
 
 .footer__main__tag-social-link a .fa-brands {
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 0.938em;
+    line-height: 1.875em;
     z-index: 10;
     position: relative;
     transition: 0.5s;
@@ -73,7 +73,7 @@
     width: 100%;
     height: 100%;
     top: 0;
-    left: -90px;
+    left: -5.625em;
     background: linear-gradient(-45deg, var(--first-color), var(--second-color));
     position: absolute;
     z-index: -10;
@@ -85,30 +85,30 @@
 }
 
 .footer__main__tag-search-bar {
-    width: 230px;
-    height: 30px;
+    width: 14.375em;
+    height: 1.875em;
     background: rgb(228, 223, 223);
-    border-radius: 25px;
+    border-radius: 1.563em;
 }
 
 .footer__main__tag-search-bar input {
-    width: 200px;
-    padding: 2px 0;
+    width: 12.5em;
+    padding: 0.125em 0;
     position: relative;
     top: 17%;
     left: 6%;
     border: none;
     background: none;
     outline: none;
-    font-size: 13px;
+    font-size: 0.813em;
 }
 
 .footer__main__tag-search-bar button {
-    padding: 7px 15px;
+    padding: 0.438em 0.938em;
     background: linear-gradient(to right, var(--first-color), var(--second-color));
     border: none;
-    margin-top: 15px;
-    border-radius: 25px;
+    margin-top: 0.938em;
+    border-radius: 1.563em;
     color: white;
     cursor: pointer;
 }
