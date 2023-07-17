@@ -7,6 +7,7 @@
 @import url("sections/about.css");
 @import url("sections/review.css");
 @import url("sections/services.css");
+@import url("sections/login.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
