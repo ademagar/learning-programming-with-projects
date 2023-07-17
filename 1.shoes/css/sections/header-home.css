@@ -60,6 +60,10 @@
     color: var(--first-color);
 }
 
+.header__user i {
+    color: black;
+}
+
 /* HOME Sett */
 
 .home__main-content {
