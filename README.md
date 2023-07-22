@@ -8,12 +8,7 @@ Of course, I do not complete all projects to completion. Some projects may have 
 ## Live Link of the Projects
 You can see here the [projects](https://ademagar.github.io/learning-programming-with-projects/)
 
-<details>
-<summary>More about Projects</summary>
-
-
 ### 1st Project - Shoes
-
 I did an shoes website. Here is a gif from that also, you can see [here](https://ademagar.github.io/learning-programming-with-projects/complicated-apps/1.shoes/) the website.
 
 <img src="/complicated-apps/1.shoes/assets/shoes-web-site/shoes1.png" width="auto">
