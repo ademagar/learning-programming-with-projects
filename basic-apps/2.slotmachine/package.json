@@ -1,0 +1,21 @@
+{
+  "name": "javascript-project",
+  "version": "1.0.0",
+  "description": "some stuff",
+  "main": "project.js",
+  "scripts": {
+    "test": "nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nope"
+  },
+  "keywords": [
+    "nope"
+  ],
+  "author": "ad3m",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
