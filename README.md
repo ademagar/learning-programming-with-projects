@@ -5,20 +5,21 @@ I created this repo to share the projects I made while learning front-end develo
 
 Of course, I do not complete all projects to completion. Some projects may have been interrupted because my goal is not to say that I am writing a project. Don't forget this when browsing projects.
 
-### Live Link of the Projects
+## Live Link of the Projects
 You can see here the [projects](https://ademagar.github.io/learning-programming-with-projects/)
 
-## 1st Project - Shoes
-I did an shoes website. Here is a gif from that also, you can see [here](https://ademagar.github.io/learning-programming-with-projects/1.shoes/) the website.
+### 1st Project - Shoes
+I did an shoes website. Here is a gif from that also, you can see [here](https://ademagar.github.io/learning-programming-with-projects/complicated-apps/1.shoes/) the website.
 
 <img src="/complicated-apps/1.shoes/assets/shoes-web-site/shoes1.png" width="auto">
 <img src="/complicated-apps/1.shoes/assets/shoes-web-site/shoes-web.gif" width="auto">
 
-## 2nd Project - Real Estate
-I am doing a real estate website right now. Here is ongoing project website : [real estate](https://ademagar.github.io/learning-programming-with-projects/2.real-estate/)
+### 2nd Project - Real Estate
+I am doing a real estate website right now. Here is ongoing project website : [real estate](https://ademagar.github.io/learning-programming-with-projects/complicated-apps/2.real-estate/)
 
-## 3rd Project - Personal Blog
+### 3rd Project - Personal Blog
 I am going to do a personal blog after real estate website.
+</details> 
 
 ## Get in touch
 [<img src="https://raw.githubusercontent.com/codeSTACKr/codeSTACKr/master/img/twitter-dark.svg" width="auto" target="_blank">](https://www.twitter.com/ad3magar)
